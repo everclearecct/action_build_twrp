@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-	2021/07/22 Vela 编译成功
+	2021/07/22 Vela 编译完成
 </p>
 
 <p align="center">
