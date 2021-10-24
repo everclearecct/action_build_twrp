@@ -5,7 +5,7 @@
   "git_email": "37921907+azwhikaru@users.noreply.github.com",
   "use_own_dt": true,
   "dt_url": "azwhikaru/twrp_device_xiaomi_archytas",
-  "dt_branch": "android-9.0",
+  "dt_branch": "twrp-9.0",
   "dt_remote": "github",
   "dt_path": "device/xiaomi/Archytas",
   "device_code": "Archytas",
