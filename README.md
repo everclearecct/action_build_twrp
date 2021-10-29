@@ -1,4 +1,6 @@
-<h1 align="center"> 利用 Github Actions 编译 TWRP Recovery</h1>
+<h2 align="center"> 🎉新版本已就绪，支持编译 TWRP、SHRP、OFRP 并做了一大堆优化🎉 </h2>
+<h3 align="center"> 🚀点击下方链接火速体验🚀 </h3>
+<h4 align="center"> 🔗https://github.com/azwhikaru/Action-TWRP-build🔗 </h4>
 
 ---
 
