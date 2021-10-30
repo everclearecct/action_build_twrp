@@ -38,6 +38,7 @@ jobs:
         export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
         export PATH=${JAVA_HOME}/bin:$PATH
         echo $JAVA_HOME
+        java -version
     
     - name: Set variables
       run: |
