@@ -33,10 +33,10 @@ jobs:
         sudo apt -y purge *jdk*
         ls /usr/local/
         echo spiled ---- spiled
-        rm -rf /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/
+        sudo rm -rf /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/
         wget https://repo.huaweicloud.com/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz
         tar xzvf jdk-7u80-linux-x64.tar.gz
-        cp -r jdk1.7.0_80/ /usr/lib/jvm/jdk1.7.0_80/
+        sudo cp -r jdk1.7.0_80/ /usr/lib/jvm/
         export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_80/
         export JRE_HOME=${JAVA_HOME}/jre  
         export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
