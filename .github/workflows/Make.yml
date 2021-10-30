@@ -33,7 +33,7 @@ jobs:
         sudo apt -y purge *jdk*
         ls /usr/local/
         echo spiled ---- spiled
-        export $JAVA_HOME
+        rm -rf /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/
         wget https://repo.huaweicloud.com/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz
         tar xzvf jdk-7u80-linux-x64.tar.gz
         export JAVA_HOME=/home/runner/jdk1.7.0_80
