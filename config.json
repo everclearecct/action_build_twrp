@@ -9,9 +9,9 @@
   "dt_remote": "github",
   "dt_path": "device/samsung/aruba3gduosctc",
   "device_code": "aruba3gduosctc",
-  "use_omin_head": false,
-  "use_repair_manifest": false,
-  "fix_product": true,
+  "use_omin_head": true,
+  "use_repair_manifest": true,
+  "fix_product": false,
   "fix_misscom": false,
   "fix_busybox": false,
   "fix_branch": "android-4.1"
