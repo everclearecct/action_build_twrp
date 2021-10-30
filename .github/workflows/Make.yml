@@ -36,8 +36,8 @@ jobs:
         rm -rf /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/
         wget https://repo.huaweicloud.com/java/jdk/7u80-b15/jdk-7u80-linux-x64.tar.gz
         tar xzvf jdk-7u80-linux-x64.tar.gz
-        cp -r jdk1.7.0_80/ /usr/lib/jvm/
-        export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_80
+        cp -r jdk1.7.0_80/ /usr/lib/jvm/jdk1.7.0_80/
+        export JAVA_HOME=/usr/lib/jvm/jdk1.7.0_80/
         export JRE_HOME=${JAVA_HOME}/jre  
         export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
         export PATH=${JAVA_HOME}/bin:$PATH
