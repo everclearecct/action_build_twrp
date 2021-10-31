@@ -150,6 +150,7 @@ jobs:
         tree ./device
         export ALLOW_MISSING_DEPENDENCIES=true
         export USE_NINJA=false
+        export TARGET_PRODUCT=onmi_aruba3gduosctc
         source build/envsetup.sh
         lunch omni_${{ steps.var.outputs.device_code }}-eng 
         make clean
